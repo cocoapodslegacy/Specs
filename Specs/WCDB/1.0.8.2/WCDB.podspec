@@ -19,7 +19,7 @@ Pod::Spec.new do |wcdb|
   wcdb.watchos.deployment_target = "2.0"
   wcdb.tvos.deployment_target = "9.0"
 
-  wcdb.source           = { :http => "https://raw.githack.com/cocoapodslegacy/#{wcdb.name.to_s}/master/Framework/#{wcdb.version.to_s}/#{wcdb.name.to_s}.zip"}
+  wcdb.source           = { :http => "https://cdn.jsdelivr.net/gh/cocoapodslegacy/#{wcdb.name.to_s}/@master/Framework/#{wcdb.version.to_s}/#{wcdb.name.to_s}.zip"}
   wcdb.preserve_paths = "#{wcdb.name.to_s}.framework"
   wcdb.source_files = "#{wcdb.name.to_s}.framework/Headers/*.h"
   wcdb.vendored_frameworks = "#{wcdb.name.to_s}.framework"
