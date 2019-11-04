@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
-  s.source           = { :http => "https://cdn.jsdelivr.net/gh/cocoapodslegacy/#{s.name.to_s}@master/Framework/#{s.version.to_s}/#{s.name.to_s}.zip"}
+  s.source           = { :http => "https://cdn.jsdelivr.net/gh/cocoapodslegacy/promises/@master/Framework/#{s.version.to_s}/Promises.zip"}
   s.preserve_paths = "Promises.framework"
   s.source_files = "Promises.framework/Headers/*.h"
   s.vendored_frameworks = "Promises.framework"
