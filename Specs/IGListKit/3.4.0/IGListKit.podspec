@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.authors = 'Instagram'
   s.social_media_url = 'https://twitter.com/fbOpenSource'
 
-  s.source           = { :http => "https://cdn.jsdelivr.net/gh/cocoapodslegacy/#{s.name.to_s}/@master/Framework/#{s.version.to_s}/#{s.name.to_s}.zip"}
+  s.source           = { :http => "https://cdn.jsdelivr.net/gh/cocoapodslegacy/#{s.name.to_s}@master/Framework/#{s.version.to_s}/#{s.name.to_s}.zip"}
   s.preserve_paths = "#{s.name.to_s}.framework"
   s.source_files = "#{s.name.to_s}.framework/Headers/*.h"
   s.vendored_frameworks = "#{s.name.to_s}.framework"
