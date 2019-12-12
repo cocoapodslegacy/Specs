@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.ios.frameworks = ['Cocoa','Foundation']
+  s.ios.frameworks = ['Foundation']
 end
